@@ -1,0 +1,1 @@
+The Game: Letter Frenzy was originally supposed to be a game where players guess The Office Quote. However, for simplicity purposes, the game was adjusted where players had to guess the correct letter from the English Alphabet (5 tries for 26 choices). Both implementations required the same foundations which is why the application purposes was simplified. 
