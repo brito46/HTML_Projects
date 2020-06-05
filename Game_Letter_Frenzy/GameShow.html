@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Game Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="newStyle.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container"> <!-- Where all the data is held -->
+      <div id="overlay" class="start"> <!-- the id of this class is overlay -->
+        <h2 class="title">Guess That Letter</h2>
+        <a class="btn__reset">Start Game</a>
+      </div>
+
+      <div id="banner" class="section">
+        <h2 class="header">Guess That Letter</h2>
+      </div>
+
+      <div id="phrase" class="section">
+        <ul></ul> <!-- defining an unordered list inside class called "section" with id:"phrase" -->
+      </div>
+      <div id="qwerty" class="section"> <!-- This section is for the letters -->
+        <!-- There are three rows of letters on a keyboard -->
+        <div class="keyrow">   
+          <button>q</button><button>w</button><button>e</button><button>r</button><button>t</button><button>y</button><button>u</button>
+          <button>i</button><button>o</button><button>p</button>
+        </div>
+        <div class="keyrow">
+          <button>a</button><button>s</button><button>d</button><button>f</button><button>g</button><button>h</button><button>j</button>
+          <button>k</button><button>l</button>
+        </div>
+        <div class="keyrow">
+          <button>z</button><button>x</button><button>c</button><button>v</button><button>b</button><button>n</button><button>m</button>
+        </div>
+      </div>
+
+      <div id="scoreboard" class="section"> <!-- Another section inside container, but this section is to keep score -->
+        <ol> <!-- creating ordered list in this section with "scoreboard" id-->
+          <li class="tries"><img id = "l1" src="liveHeart.png" height="35px" widght="30px"></li>
+          <li class="tries"><img id = "l2" src="liveHeart.png" height="35px" widght="30px"></li>
+          <li class="tries"><img id = "l3" src="liveHeart.png" height="35px" widght="30px"></li>
+          <li class="tries"><img id = "l4" src="liveHeart.png" height="35px" widght="30px"></li>
+          <li class="tries"><img id = "l5" src="liveHeart.png" height="35px" widght="30px"></li>
+        </ol>
+      </div>
+    </div>
+    <script type="text/javascript" src="GameShowapp.js"></script>
+  </body>
+</html>
